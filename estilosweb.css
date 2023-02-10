@@ -1,0 +1,139 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu1{
+    list-style: none;
+    padding: 0px;
+    background: white;
+    width: 350px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+
+}
+.menu1 li a{
+text-decoration: none;
+color: black;
+padding: 10px;
+display: block;
+
+}
+.menu1 li{
+    display: inline-block;
+    text-align: center;
+    border-style: ridge;
+}
+.menu1 li a:hover{
+    background: yellow;
+}
+.container1 {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    margin: 70px auto;
+    border-radius: 40px;
+    box-shadow: 10px 10px 15px grey;
+}
+.container1 img{
+    width: 100%;
+    height: 100%;
+}
+.container1 p{
+    background-color: cornsilk;
+    padding: 15px 30px 50px;
+    font-size: 80px;
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-shadow: 0 0 8px grey;
+}
+.container1 a{
+    background-color: cornsilk;
+    padding: 15px 53px 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+.container-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.menu3{
+list-style: none;
+padding: 0px;
+background: white;
+width: 430px;
+max-width: 1000px;
+margin: auto;
+display: flex;
+}
+.menu3 li a{
+    text-decoration: none;
+    color: black;
+padding: 10px;
+display: block;
+}
+.menu3 li{
+    display: inline-block;
+    text-align: center;
+    border-style: ridge;
+}
+.menu3 li a:hover{
+    background: yellow;
+}
+.menu2{
+    list-style: none;
+    padding: 0px;
+    width: 703px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+
+    }
+    .menu2 li a{
+    text-decoration: none;
+    color: black;
+    padding: 30px 0px 50px 110px;
+    display: flex;
+    }
+.menu4{
+    list-style: none;
+    padding: 0px;
+    background: white;
+    width: 100px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    }
+    .menu4 li a{
+        text-decoration: none;
+        color: black;
+    padding: 10px;
+    display: block;
+    }
+    .menu4 li{
+        display: inline-block;
+        text-align: center;
+        border-style: solid;
+    }
+    .menu4 li a:hover{
+        background: yellow;
+    }
